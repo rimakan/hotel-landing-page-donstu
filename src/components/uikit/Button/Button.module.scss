@@ -1,0 +1,31 @@
+.button {
+  color: #fff;
+  background-color: #e0b973;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #c7a668;
+    transition: ease 0.2s;
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+    background-color: #efc577;
+  }
+
+  &_large {
+    padding: 16px 32px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 23px;
+  }
+
+  &_small {
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 13px;
+  }
+}

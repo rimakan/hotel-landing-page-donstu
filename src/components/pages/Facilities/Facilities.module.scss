@@ -1,0 +1,23 @@
+.facilitiesPage {
+  &__header {
+    margin-bottom: 82px;
+    
+    h2 {
+      color: #14274a;
+      text-align: center;
+      font-size: 60px;
+      line-height: 58px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      margin-bottom: 35px;
+    }
+
+    p {
+      color: #14274a;
+      text-align: center;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 23px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.loginPage {
+  height: 388px;
+
+  &__form {
+    margin: 250px auto;
+    width: 400px;
+
+    .input {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 23px;
+
+      &:not(&:last-child) {
+        margin-bottom: 20px;
+      }
+
+      input {
+        padding: 8px 16px;
+      }
+    }
+
+    .buttonBlock {
+      display: block;
+      text-align: center;
+    }
+  }
+}

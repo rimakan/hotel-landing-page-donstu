@@ -1,0 +1,36 @@
+.footer {
+  padding: 128px 256px;
+  background-color: #14274a;
+
+  .info {
+    .contacts {
+      margin-top: 22px;
+
+      div {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .links {
+    .link {
+      display: block;
+      color: #f7f7f7;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 14px;
+      
+      &:not(&:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .links,
+  .socials {
+    align-self: flex-start;
+  }
+}

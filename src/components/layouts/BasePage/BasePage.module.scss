@@ -1,0 +1,96 @@
+.basePage {
+  width: 100%;
+  min-width: 1500px;
+
+  &__intro {
+    padding: 0 256px;
+    &_primary {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        var(--background, '');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 1600px;
+    }
+
+    &_secondary {
+      background-color: #14274a;
+      height: 600px;
+
+      .basePage__introContent {
+        margin-top: 100px;
+      }
+    }
+
+    &_tertiary {
+      background-color: #14274a;
+    }
+
+    .buttonBlock {
+      margin-top: 310px;
+      text-align: center;
+    }
+  }
+
+  &__content {
+    margin-top: 80px;
+    padding: 0 256px;
+    margin-bottom: 115px;
+  }
+
+  &__introContent {
+    margin-top: 300px;
+
+    .welcome,
+    .title,
+    .secondTitle,
+    .book {
+      color: #fff;
+      font-style: normal;
+      line-height: normal;
+    }
+
+    .title,
+    .secondTitle {
+      font-weight: 700;
+    }
+
+    .welcome {
+      font-size: 50px;
+      font-weight: 400;
+    }
+
+    .title {
+      font-size: 154px;
+      letter-spacing: 10.78px;
+    }
+
+    .secondTitle {
+      font-size: 60px;
+      letter-spacing: 24px;
+    }
+
+    .book {
+      font-size: 25px;
+      font-weight: 400;
+      letter-spacing: 2.5px;
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  .basePage {
+    &__intro,
+    &__content {
+      padding: 0 128px;
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  .basePage {
+    &__intro,
+    &__content {
+      padding: 0 64px;
+    }
+  }
+}
