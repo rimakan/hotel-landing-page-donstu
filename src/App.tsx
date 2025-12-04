@@ -9,6 +9,7 @@ import Login from './components/pages/Login/Login';
 import { Provider } from 'react-redux';
 import { store } from './store/store';
 import ProtectedRoute from './components/common/ProtectedRoute/ProtectedRoute';
+import NotFoundPage from './components/pages/NotFoundPage/NotFoundPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
+          <Route path="*" element={<NotFoundPage />} />
 
           <Route
             path="/facilities"
