@@ -3,10 +3,16 @@ body {
   line-height: 18px;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
-  color: var(--text-color-default);
-  background: var(--body-bg);
 }
 
 .active {
   text-decoration: underline;
+}
+
+a.text-link {
+  color: #244583;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

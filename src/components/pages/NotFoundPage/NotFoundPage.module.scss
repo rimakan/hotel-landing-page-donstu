@@ -1,0 +1,21 @@
+.notFoundPage {
+  &__errorCode {
+    color: #fff !important;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 78px;
+    text-align: center;
+  }
+
+  &__body {
+    div {
+      font-size: 40px;
+      line-height: 48px;
+    }
+
+    img {
+      width: 1280px;
+      border-radius: 20px;
+    }
+  }
+}
