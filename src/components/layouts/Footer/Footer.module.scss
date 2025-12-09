@@ -22,7 +22,7 @@
       font-size: 16px;
       font-weight: 700;
       line-height: 14px;
-      
+
       &:not(&:last-child) {
         margin-bottom: 30px;
       }
@@ -32,5 +32,35 @@
   .links,
   .socials {
     align-self: flex-start;
+  }
+}
+
+@media (max-width: 1280px) {
+  .footer {
+    padding: 96px 128px;
+  }
+}
+
+@media (max-width: 968px) {
+  .footer {
+    padding: 48px 64px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    padding: 32px 64px;
+  }
+}
+
+@media (max-width: 665px) {
+  .footer {
+    padding: 16px 32px;
+  }
+}
+
+@media (max-width: 526px) {
+  .footer {
+    padding: 8px 16px;
   }
 }

@@ -1,6 +1,5 @@
 .basePage {
   width: 100%;
-  min-width: 1500px;
 
   &__intro {
     padding: 0 256px;
@@ -9,15 +8,15 @@
         var(--background, '');
       background-repeat: no-repeat;
       background-size: cover;
-      height: 1600px;
+      height: 1320px;
     }
 
     &_secondary {
       background-color: #14274a;
-      height: 600px;
 
       .basePage__introContent {
-        margin-top: 100px;
+        margin-top: 50px;
+        height: 150px;
       }
     }
 
@@ -86,11 +85,29 @@
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1083px) {
   .basePage {
     &__intro,
     &__content {
       padding: 0 64px;
+    }
+  }
+}
+
+@media (max-width: 968px) {
+  .basePage {
+    &__intro,
+    &__content {
+      padding: 0 32px;
+    }
+  }
+}
+
+@media (max-width: 653px) {
+  .basePage {
+    &__intro,
+    &__content {
+      padding: 0 16px;
     }
   }
 }

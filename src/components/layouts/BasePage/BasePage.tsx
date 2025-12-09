@@ -45,9 +45,10 @@ const BasePage: React.FC<BasePageProps> = ({
           <div className={s.basePage__introContent}>
             {customIntro || (
               <>
-                <div className={s.welcome}>WELCOME TO</div>
-                <div className={s.title}>LUXURY</div>
-                <div className={s.secondTitle}>HOTELS</div>
+                <div className={s.welcome}>
+                  WELCOME TO <br />
+                  LUXURY HOTELS
+                </div>
                 <div className={s.book}>
                   Book your stay and enjoy Luxury <br />
                   redefined at the most affordable rates.
