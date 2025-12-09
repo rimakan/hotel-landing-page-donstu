@@ -8,3 +8,27 @@
     }
   }
 }
+
+@media (min-width: 1280px) {
+  .navHeader {
+    &__navigation {
+      display: block;
+    }
+
+    .burgerMenu {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .navHeader {
+    &__navigation {
+      display: none;
+    }
+
+    .burgerMenu {
+      display: block;
+    }
+  }
+}

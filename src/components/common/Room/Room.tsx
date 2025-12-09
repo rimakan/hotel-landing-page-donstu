@@ -10,7 +10,9 @@ const Room: React.FC<RoomProps> = ({ title, imgUrl }) => {
   return (
     <div className={s.room}>
       <img src={imgUrl} alt={title} />
-      <div className={s.room__title}>{title}</div>
+      <h2>
+        <span className={s.room__title}>{title}</span>
+      </h2>
     </div>
   );
 };

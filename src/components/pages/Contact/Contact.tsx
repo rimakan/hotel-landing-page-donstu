@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
   return (
     <BasePage
       className={s.contactPage}
-      customIntro={<h1 className={s.contactPage__contact}>CONTACT-US</h1>}
+      customIntro={<h2 className={s.contactPage__contact}>CONTACT-US</h2>}
       variant="secondary"
     >
       <div className={s.contactPage__body}>

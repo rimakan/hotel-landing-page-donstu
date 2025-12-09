@@ -19,9 +19,163 @@
       color: #14274a;
       font-size: 25px;
       font-weight: 400;
-      line-height: 40px; /* 160% */
+      line-height: 40px;
       line-break: break-word;
       margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  .offering {
+    &__content {
+      h2 {
+        font-size: 48px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1700px) {
+  .offering {
+    &__content {
+      padding-left: 40px;
+
+      h2 {
+        font-size: 40px;
+        line-height: 38px;
+      }
+
+      div {
+        font-size: 22px;
+      }
+    }
+
+    img {
+      width: 720px;
+    }
+  }
+}
+
+@media (max-width: 1480px) {
+  .offering {
+    &__content {
+      padding-left: 35px;
+      h2 {
+        font-size: 36px;
+        line-height: 34px;
+      }
+
+      div {
+        font-size: 20px;
+        line-height: 18px;
+      }
+    }
+
+    img {
+      width: 480px;
+    }
+  }
+}
+
+@media (max-width: 1160px) {
+  .offering {
+    gap: 80px !important;
+    &__content {
+      padding-left: 28px;
+
+      h2 {
+        font-size: 24px;
+        line-height: 22px;
+      }
+
+      div {
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      button {
+        font-size: 18px;
+        padding: 8px 16px;
+      }
+    }
+
+    img {
+      width: 320px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .offering {
+    padding-left: 24px;
+    gap: 40px !important;
+    &__content {
+      h2 {
+        font-size: 18px;
+        line-height: 22px;
+      }
+
+      div {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      button {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+    }
+
+    img {
+      width: 300px;
+    }
+  }
+}
+
+@media (max-width: 690px) {
+  .offering {
+    gap: 20px !important;
+
+    &__content {
+      padding-left: 20px;
+      h2 {
+        font-size: 15px;
+        line-height: 22px;
+      }
+
+      div {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+
+    img {
+      width: 300px;
+    }
+  }
+}
+
+@media (max-width: 690px) {
+  .offering {
+    gap: 10px !important;
+
+    &__content {
+      padding-left: 16px;
+
+      h2 {
+        font-size: 15px;
+        line-height: 22px;
+      }
+
+      div {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+
+    img {
+      width: 240px;
     }
   }
 }

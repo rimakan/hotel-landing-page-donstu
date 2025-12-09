@@ -37,6 +37,14 @@ function App() {
               </ProtectedRoute>
             }
           />
+          <Route
+            path="/rooms"
+            element={
+              <ProtectedRoute>
+                <Login />
+              </ProtectedRoute>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </Provider>

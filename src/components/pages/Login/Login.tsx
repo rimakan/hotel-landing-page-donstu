@@ -21,7 +21,10 @@ const Login: React.FC = () => {
   };
 
   return (
-    <BasePage variant="tertiary" contentClassname={s.loginPage}>
+    <BasePage
+      variant="tertiary"
+      className={s.loginPage}
+    >
       <div className={s.loginPage__form}>
         <FlexGroup
           gap="30px"
