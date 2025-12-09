@@ -1,5 +1,5 @@
 import { Provider } from 'react-redux';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import ProtectedRoute from './components/common/ProtectedRoute/ProtectedRoute';
 import Contact from './components/pages/Contact/Contact';
@@ -14,7 +14,7 @@ import { store } from './store/store';
 function App() {
   return (
     <Provider store={store}>
-      <HashRouter basename='/hotel-landing-page-donstu/'>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
@@ -38,7 +38,7 @@ function App() {
             }
           />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </Provider>
   );
 }
