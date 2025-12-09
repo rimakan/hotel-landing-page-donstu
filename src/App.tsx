@@ -14,7 +14,7 @@ import { store } from './store/store';
 function App() {
   return (
     <Provider store={store}>
-      <HashRouter>
+      <HashRouter basename='/hotel-landing-page-donstu/'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
