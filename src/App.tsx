@@ -14,7 +14,7 @@ import NotFoundPage from './components/pages/NotFoundPage/NotFoundPage';
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename='/hotel-landing-page-donstu'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
