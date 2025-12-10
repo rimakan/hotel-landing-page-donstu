@@ -69,3 +69,31 @@
     }
   }
 }
+
+@media (max-width: 800px) {
+  .room {
+    img {
+      width: 480px;
+    }
+
+    &__title {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .room {
+    img {
+      width: 360px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .room {
+    img {
+      width: 240px;
+    }
+  }
+}

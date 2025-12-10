@@ -37,6 +37,10 @@ const BasePage: React.FC<BasePageProps> = ({
 
   const contentClasses = cn(s.basePage__content, contentClassname);
 
+  const handleClickButton = () => {
+    alert('unavailable :(');
+  };
+
   return (
     <div className={s.basePage}>
       <div className={classNames} style={styles}>
@@ -55,14 +59,13 @@ const BasePage: React.FC<BasePageProps> = ({
                 </div>
 
                 <div className={s.buttonBlock}>
-                  <Button>BOOK NOW</Button>
+                  <Button onClick={handleClickButton}>BOOK NOW</Button>
                 </div>
               </>
             )}
           </div>
         )}
       </div>
-
       <section className={contentClasses}>{children}</section>
       <Footer />
     </div>

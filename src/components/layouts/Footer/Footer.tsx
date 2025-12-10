@@ -12,7 +12,7 @@ import SocialItem from './SocialItem/SocialItem';
 const Footer: React.FC = () => {
   return (
     <footer className={s.footer}>
-      <FlexGroup justifyContent="space-between">
+      <FlexGroup justifyContent="space-between" className={s.container}>
         <div className={s.info}>
           <img src={luxuryHotels} alt="logo" />
           <div className={s.contacts}>

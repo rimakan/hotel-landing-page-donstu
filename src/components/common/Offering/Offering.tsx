@@ -10,14 +10,19 @@ interface OfferingProps {
 }
 
 const Offering: React.FC<OfferingProps> = ({ title, offerText, imgUrl }) => {
+  const handleClickButton = () => {
+    alert('unavailable :(');
+  };
+
   return (
     <FlexGroup className={s.offering} gap="115px" justifyContent="center">
       <div className={s.offering__content}>
         <h2>{title}</h2>
         <div>{offerText}</div>
-        <Button>EXPLORE</Button>
+        <img className={s.img_mobile} src={imgUrl} alt="" />
+        <Button onClick={handleClickButton}>EXPLORE</Button>
       </div>
-      <img src={imgUrl} alt="" />
+      <img className={s.img_fullscreen} src={imgUrl} alt="" />
     </FlexGroup>
   );
 };
