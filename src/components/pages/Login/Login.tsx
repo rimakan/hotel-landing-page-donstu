@@ -21,10 +21,7 @@ const Login: React.FC = () => {
   };
 
   return (
-    <BasePage
-      variant="tertiary"
-      className={s.loginPage}
-    >
+    <BasePage variant="tertiary" className={s.loginPage}>
       <div className={s.loginPage__form}>
         <FlexGroup
           gap="30px"
@@ -32,7 +29,12 @@ const Login: React.FC = () => {
           className={s.input}
         >
           <label htmlFor="email">Email</label>
-          <input type="email" name="email" onChange={handleChangeEmail} />
+          <input
+            type="email"
+            name="email"
+            onChange={handleChangeEmail}
+            placeholder="Email"
+          />
         </FlexGroup>
 
         <FlexGroup
@@ -45,6 +47,7 @@ const Login: React.FC = () => {
             type="password"
             name="password"
             onChange={handleChangePassword}
+            placeholder="Password"
           />
         </FlexGroup>
 

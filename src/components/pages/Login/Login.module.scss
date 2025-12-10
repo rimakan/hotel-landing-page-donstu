@@ -24,3 +24,18 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .loginPage {
+    &__form {
+      width: 200px;
+      div {
+        flex-direction: column;
+
+        label {
+          display: none;
+        }
+      }
+    }
+  }
+}
