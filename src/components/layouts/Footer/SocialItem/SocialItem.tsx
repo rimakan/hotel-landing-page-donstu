@@ -11,7 +11,7 @@ const SocialItem: React.FC<SocialProps> = ({ logo, title }) => {
   return (
     <FlexGroup gap="25px" className={s.social}>
       <img src={logo} alt={title} />
-      <span>{title}</span>
+      <div>{title}</div>
     </FlexGroup>
   );
 };

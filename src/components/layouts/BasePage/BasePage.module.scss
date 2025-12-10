@@ -25,8 +25,7 @@
     }
 
     .buttonBlock {
-      margin-top: 310px;
-      text-align: center;
+      margin-top: 40px;
     }
   }
 
@@ -85,11 +84,15 @@
   }
 }
 
-@media (max-width: 1083px) {
+@media (max-width: 1280px) {
   .basePage {
     &__intro,
     &__content {
       padding: 0 64px;
+    }
+
+    &__intro_primary {
+      height: 1000px;
     }
   }
 }
@@ -99,6 +102,14 @@
     &__intro,
     &__content {
       padding: 0 32px;
+    }
+
+    &__intro_primary {
+      height: 900px;
+    }
+
+    &__introContent {
+      margin-top: 200px;
     }
   }
 }
